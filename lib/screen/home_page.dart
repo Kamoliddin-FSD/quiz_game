@@ -18,13 +18,13 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Container(
         decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: [
-              Colors.deepPurple,
-              Colors.purple,
-              Colors.pink
-            ]
-          )
+            gradient: LinearGradient(
+                colors: [
+                  Colors.deepPurple,
+                  Colors.purple,
+                  Colors.pink
+                ]
+            )
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
